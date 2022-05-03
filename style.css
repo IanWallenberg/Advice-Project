@@ -1,0 +1,224 @@
+body {
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+img {
+  z-index: -1;
+}
+
+/* SIDE EYEING CHLOE */
+.background-img1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    left: 110px;
+    margin: 0 auto;
+    animation:fade-in 30s;
+    
+  }             
+
+@keyframes fade-in{
+from { opacity:0;}
+to {opacity:1;}
+}
+
+
+  /* WILL SMITH NOT OKAY */
+  .background-img2 {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+    animation-name:img-ani;
+    animation-duration: 12s;   
+    animation-timing-function: ease-in;
+  }             
+  
+  @keyframes img-ani {
+    from{opacity:0;}
+    to{opacity: 1;}
+  }
+
+  /* LIGHT IN THE DARK */
+  .background-img3 {
+    width: 200px;
+    height: 150px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 620px;
+    left: 600px;
+    animation-name:img-ani;
+    animation-duration: 15s;   
+    animation-timing-function: ease-in-out;
+  }             
+  
+  @keyframes img-ani {
+    from{opacity:0;}
+    to{opacity: 1;}
+  }
+
+
+/* YODA SILENTLY FARTING */
+  .background-img4 {
+    width: 200px;
+    height: 150px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    animation-name:img-ani;
+    animation-duration: 8s;   
+    animation-timing-function: ease-in;
+  }             
+  
+  @keyframes img-ani {
+    from{opacity:0;}
+    to{opacity: 1;}
+  }
+
+  /* BEARD GOALS */
+  .background-img5 {
+    width: 200px;
+    height: 150px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 580px;
+    left: 1100px;
+    animation-name:img-ani;
+    animation-duration: 32s;   
+    animation-timing-function: ease-in;
+  }             
+  
+  @keyframes img-ani {
+    from{opacity:0;}
+    to{opacity: 1;}
+  }
+
+  /* LINEAR GRADIENT ANIMATIONS */
+.css-selector {
+    background: linear-gradient(270deg, #e8791f, #e17f0d, #e47325, #cf8153);
+    background-size: 800% 800%;
+    animation: AnimationName 30s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.css-selector2 {
+    background: linear-gradient(180deg, #eeb423, #c3ba38, #d49e17, #d77c13);
+    background-size: 800% 800%;
+    animation: AnimationName 29s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+
+/* FLEXING BOX */
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 2em;
+    color: seashell;
+    font-size: 2em;
+    transition: transform 2s;
+    animation:fade-in 5s;
+    text-align: center;
+}
+
+a {
+    color: black;
+    padding: 2em;
+    font-size: large;
+    opacity: 0.9;
+    background-color: white;
+    border-radius: 1em;
+    transition: transform 1s;
+    margin: 2em;
+}
+
+a:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+h1 {
+    color: black;
+    opacity: 0.8;
+    box-shadow: 12px 12px 2px 1px rgba(255, 123, 0, 0.8);
+    font-size: 2em;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.blue {
+    color: #3176be;
+    opacity: 0.8;
+    box-shadow: 12px 12px 2px 1px rgba(255, 123, 0, 0.8);
+
+}
+h2 {
+    color: #022b69;
+    box-shadow: 12px 12px 2px 1px rgba(255, 123, 0, 0.8);
+
+}
+
+.bluer {
+    color: #0077a7;
+}
+
+h3 {
+color: #2767df;
+box-shadow: 12px 12px 2px 1px rgba(255, 123, 0, 0.8);
+
+}
+
+.PS {
+    color: green;
+    
+}
+
+h4 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.mindblown {
+    z-index: 2;
+    position: absolute;
+    top: 280px;
+    animation-name:img-ani;
+    animation-duration: 5s;   
+    animation-timing-function: ease-in;
+  }             
+  
+  @keyframes img-ani {
+    from{opacity:0;}
+    to{opacity: 1;}
+  }
+
+  /* .audio {
+    display: none;
+  } */
